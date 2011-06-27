@@ -1,3 +1,3 @@
 # Ruby on Rails Tutorial: sample application
 
-Sample app bla bla
+Sample app bla
