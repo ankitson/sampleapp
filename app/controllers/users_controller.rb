@@ -18,6 +18,8 @@ class UsersController < ApplicationController
       #Handle a successful save
     else
       @title = "Sign up"
+      @user.password = nil
+      @user.password_confirmation = nil
       render 'new'
     end
   end
